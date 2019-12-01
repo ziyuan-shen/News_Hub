@@ -1,5 +1,5 @@
 ---
-title: "Exam 2"
+title: "News Hub"
 author: 'Ziyuan Shen'
 date: "11/14/2019"
 output: 
