@@ -148,23 +148,6 @@ news_key <- "a169100e35944348ba801c2a47862390"
 # Define UI for application that draws a histogram
 ui <- fluidPage(
     navbarPage(title="News Hub",
-               tabPanel("Get Sources",
-                        fluidRow(
-                            column(width=2,
-                                   radioButtons("sources_category", "Category", c('business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'))
-                            ),
-                            column(width=1,
-                                   br(),br(),br(),br(),br(),br(),br(),br(),
-                                   actionButton("sources_update", "Update")
-                            )
-                        ),
-                        fluidRow(
-                            br(),br(),br()
-                        ),
-                        fluidRow(
-                            dataTableOutput("sources")
-                        )
-               ),
                tabPanel("Get Headlines",
                         sidebarLayout(
                             sidebarPanel(
@@ -233,6 +216,23 @@ ui <- fluidPage(
                                 }
                                 )
                             )
+                        )
+               ),
+               tabPanel("Get Sources",
+                        fluidRow(
+                            column(width=2,
+                                   radioButtons("sources_category", "Category", c('business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'))
+                            ),
+                            column(width=1,
+                                   br(),br(),br(),br(),br(),br(),br(),br(),
+                                   actionButton("sources_update", "Update")
+                            )
+                        ),
+                        fluidRow(
+                            br(),br(),br()
+                        ),
+                        fluidRow(
+                            dataTableOutput("sources")
                         )
                )
     )
