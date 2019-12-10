@@ -50,5 +50,5 @@ App features:
    [modal dialog box](https://shiny.rstudio.com/reference/shiny/latest/modalDialog.html).
 
 
-<a style="font-size:2.6em;" href="https://ziyuan-shen.shinyapps.io/Central_News_Hub/">Run App</a></br>
+<a style="font-size:20pt;" href="https://ziyuan-shen.shinyapps.io/Central_News_Hub/">Run App</a></br>
 **Note:** 25 hrs usage limit for shinyapps.io free account
