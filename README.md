@@ -1,4 +1,4 @@
-# STA523
+# Central News Hub
 
 ## Introduction
 
@@ -36,7 +36,7 @@ Function:
 
 ## News Hub App
 
-Create a Shiny app or dashboard that serves as a central news hub. It is embedded in the Rmd file.
+Create a Shiny app that serves as a central news hub. It is embedded in the Rmd file.
 
 App features:
 
@@ -48,3 +48,7 @@ App features:
 3. Content shown include the 
    article's title, link, author, image, etc. Read More button is made by incorporating a
    [modal dialog box](https://shiny.rstudio.com/reference/shiny/latest/modalDialog.html).
+
+
+<a style="font-size:2.6em;" href="https://ziyuan-shen.shinyapps.io/Central_News_Hub/">Run App</a></br>
+**Note:** 25 hrs usage limit for shinyapps.io free account

@@ -1,0 +1,12 @@
+name: Central_News_Hub
+title: Central_News_Hub
+username:
+account: ziyuan-shen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1583705
+bundleId: 2654590
+url: https://ziyuan-shen.shinyapps.io/Central_News_Hub/
+when: 1575954729.03476
+asMultiple: FALSE
+asStatic: FALSE
